@@ -18,7 +18,7 @@ The script-specific notes below outline cleaned data products
 
 ## Code and order to run
 
-- [00_geocode_mergewithACS_plot.ipynb](https://github.com/katherinechristie/finalproj_geocontext/blob/main/00_geocode_mergewithACS_plot.ipynb)
+- [00_geocode_mergewithACS_plot_studentversion.ipynb](https://github.com/katherinechristie/finalproj_geocontext/blob/main/00_geocode_mergewithACS_plot_studentversion.ipynb)
 
   - Takes in:
     - API key for GeoCodio geocoding API (GROUP MOVE TO CREDS FILE)
