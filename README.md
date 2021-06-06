@@ -18,7 +18,16 @@ The script-specific notes below outline cleaned data products
 
 ## Code and order to run
 
-- [00_geocode_mergewithACS_plot_studentversion.ipynb](https://github.com/katherinechristie/finalproj_geocontext/blob/main/00_geocode_mergewithACS_plot_studentversion.ipynb)
+- [00_h2a_summary.ipynb](https://github.com/katherinechristie/finalproj_geocontext/blob/main/code/00_h2a_summary.ipynb)
+
+  - Takes in:
+    - Link to WHD investigations data
+  - What it does:
+    - Cleans and subsets WHD data for H-2A cases in TRLA states after 2016
+    - Creates summary tables of cases by state and by year
+    - Shows that repeat addresses are caused by 1) employers being investigated multiple times at the same address and 2) different employers investigated seperately that share an address
+
+- [01_geocode_mergewithACS_plot_studentversion.ipynb](https://github.com/katherinechristie/finalproj_geocontext/blob/main/code/01_geocode_mergewithACS_plot_studentversion.ipynb)
 
   - Takes in:
     - API key for GeoCodio geocoding API (GROUP MOVE TO CREDS FILE)
