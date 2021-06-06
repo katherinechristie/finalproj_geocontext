@@ -30,8 +30,12 @@ The script-specific notes below outline cleaned data products
     - Loads tract shapefiles and uses `sjoin` to find the tract location of each geocoded worksite
     - Uses Census API to pull tract-level demographics (ACS 5-year estimates; year is a parameter)
     - Merges demographics to tracts
-    - Visualizations (GROUP PROBABLY MOVE TO SEP NOTEBOOK)
+    - Function that takes state plot, violation data, demographic data and creates a figure 
+    - Creates visualizations for all 6 states on each of the three demograhic variables 
+    - By-state linear regression for all 6 states on all 3 demographic variables
   - Outputs:
     - pickle files with each state's geocoded worksites
     - `count_viols_bytract_wpoly.p`: pickle of a geopandas df with all tracts for each of the 6 TRLA states and their total count of H2A violations/investigations
     - `exact_viol_location_wtract.p`: pickle of a geopandas df with all worksite locations/tract demographics merged on
+    - 18 visualizations (3 for each of the 6 states)  
+    - R squared regression values 
